@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: rgb(221, 255, 255);
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+h1 {
+    color: rgb(81, 155, 157);
+    padding: 20px;
+    font-size: 24px;
+}
+.sidebar {
+    width: 200px;
+    background-color: rgb(145, 151, 182);
+    color: white;
+    height: 100vh;
+    padding: 20px 10px;
+    box-sizing: border-box;
+}
+.sidebar h2 {
+    text-align: center;
+}
+.sidebar a {
+    display: block;
+    color: blue;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+.sidebar a:hover {
+    background-color: aquamarine;
+}
+.content {
+    flex: 1;
+    padding: 20px;
+    background: url("rimuru-that-time-i-got-reincarnated-as-a-slime-anime-uhdpaper.com-hd-3.3306.jpg") no-repeat center;
+    background-size: cover;
+    color: antiquewhite;
+    text-shadow: 1px 1px 2px rgb(79, 79, 79);
+}
+.profil-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+.foto-profil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 20px 0;
+    border: 3px solid rgb(86, 125, 253);
+}
